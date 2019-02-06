@@ -1,0 +1,53 @@
+{
+  "private": true,
+  "name": "<%= name %>",
+  "scripts": {
+    "start": "gatsby develop",
+    "clean": "rimraf .cache public",
+    "build": "yarn run clean && gatsby build",
+    "serve": "gatsby serve",
+    "upgrade-deps": "yarn upgrade-interactive --latest",
+    "lint": "eslint src",
+    "format": "prettier --write \"{*.js,src/**/*.js}\"",
+    "test": "yarn run lint"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "@emotion/styled": "^10.0.7",
+    "classnames": "^2.2.6",
+    "emotion-reset": "^2.0.1",
+    "gatsby": "^2.0.115",
+    "gatsby-image": "^2.0.29",
+    "gatsby-plugin-emotion": "^4.0.3",
+    "gatsby-plugin-netlify": "^2.0.8",
+    "gatsby-plugin-netlify-cms": "^3.0.12",
+    "gatsby-plugin-page-creator": "^2.0.6",
+    "gatsby-plugin-react-helmet": "^3.0.6",
+    "gatsby-plugin-sharp": "^2.0.20",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-remark-copy-linked-files": "^2.0.9",
+    "gatsby-remark-images": "^3.0.3",
+    "gatsby-remark-relative-images": "^0.2.1",
+    "gatsby-source-filesystem": "^2.0.20",
+    "gatsby-transformer-remark": "^2.2.4",
+    "gatsby-transformer-sharp": "^2.1.13",
+    "gatsby-transformer-yaml": "^2.1.8",
+    "netlify-cms": "^2.3.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.8.0-alpha.1",
+    "react-dom": "^16.8.0-alpha.1",
+    "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "@airteam/eslint-config": "^0.0.7",
+    "dotenv": "^6.2.0",
+    "eslint": "^5.13.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-flowtype": "^3.2.1",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4",
+    "rimraf": "^2.6.3"
+  }
+}

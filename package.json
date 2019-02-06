@@ -1,0 +1,23 @@
+{
+  "name": "@airteam/jamstack-template",
+  "version": "0.0.1",
+  "description": "Boilerplate for gatsby.js + netlify cms",
+  "repository": {
+    "url": "airteam/jamstack-template",
+    "type": "git"
+  },
+  "author": "James Wyse <james@airteam.com.au> (https://www.airteam.com.au)",
+  "license": "MIT",
+  "files": [
+    "saofile.js",
+    "template"
+  ],
+  "scripts": {
+  },
+  "dependencies": {
+    "superb": "^3.0.0"
+  },
+  "devDependencies": {
+    "sao": "^1.6.1"
+  }
+}

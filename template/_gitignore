@@ -1,0 +1,10 @@
+node_modules
+/.env
+/.env.development
+/.env.production
+/.cache
+/public
+/lambda
+static/admin/*.bundle.*
+.DS_Store
+*.log

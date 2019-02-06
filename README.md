@@ -21,10 +21,16 @@ yarn global add sao
 npm i -g sao
 ```
 
-## Usage
+## Usage (via git)
 
 ```bash
 sao airteamaus/jamstack-template my-project
+```
+
+## Usage (via npm)
+
+```bash
+sao npm:@airteam/jamstack-template my-project
 ```
 
 ## License
